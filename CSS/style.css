@@ -1,6 +1,6 @@
 header{
     background-color: rgb(255, 240, 223);
-    padding: 20px 120px;
+    padding: 40px 200px;
 }
 #logo{
     width: 280px;
@@ -11,7 +11,7 @@ ul{
     border : 2px solid red;
 }
 .contents{
-    margin: 20px 120px;
+    margin: 40px 200px;
 }
 /* ul{
     float : right;
@@ -29,7 +29,26 @@ h1{
     color: rgb(29, 17, 108);
 }
 
-.card>img{
-  transform: scale(.65);
+.card>div>img{
+  /* transform: scale(.65); */
+  height : 50%;
+}
+footer{
+    padding: 100px 200px;
+}
 
+.footer-image{
+    width : 70%;
+
+    /* Centering any element */
+    position: relative;
+    top: 30%;  /*top:30% instead of 50% because of the gutter*/
+    left : 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.footer-card-text{
+    font-size: 1.5rem;
+}
+.side-image>img{
+    width : 100%;
 }
